@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second blog</title>
+    <link rel="stylesheet" href="second blog.css">
+</head>
+
+<body>
+    <h1>INTRO TO GIT AND GITHUB</h1>
+    <p class="details">
+        Author: Abdul Samed Manor <br>
+        Date: 12th February 2023 <br>
+    </p>
+    <hr>
+    <article>
+        <p><b>Version Control</b> is also known as source control. This is the practice of tracking and managing changes to sofware code.
+        <b>Version Control Systems</b> are software tools that help software teams manages changes to source code over time.</p>
+        <br>
+        <p><b>Version Control Softwares</b> keeps track of every change to the code in a special kind of database. If there is any
+        error in the code, developers can go back and compare previous versions of the code to help fix the error.</p>
+        <br>
+        <p>There are many alternatives, I am going t o focus on just <b>Git.</b></p>
+        <br>
+        <p><b>Git</b> is an open source version control system that manages and keeps track of your code.
+        <b>Github</b> is a service that let you host, share and manage your code files on the internet.
+        Git comes preinstalled on Macs and Linux systems. You can confirm this by;</p>
+        <br>
+        <mark> git version</mark>
+        <br>
+        <p>You can install git from the <a href="https://git-scm.com/downloads">git</a> site and verify it by typing git version</p>
+        <br>
+        <p>Create a <a href="https://git-scm.com/downloads">Github</a> account if you do not have one.</p>
+        <br>
+        <p><b>Now you have to link your Git to your Github</b></p>
+        <br>
+        <p>You can do this with the Github desktop app or on the terminal.
+        <em>I feel the desktop interface is pretty straighforward and boring, wheras the terminal is morefun. So I will do this
+            from the terminal.</em></p>
+        <br>
+        <p>You will need to set your git username and git email. This can be done by typing the following commands on the
+            terminal:</p>
+        <br>
+        <mark>git config --global user.name "AS Manor"</mark>
+        <p>this command is used to set the username</p>
+        <br>
+        <mark>git config --global user.email "abdulsamedmanor@gmail.com"</mark>
+        <p>this command is used to set the email</p>
+        <br>
+        <p>to confirm your details, type; <mark>git config --list</mark></p>
+        <br>
+        <p><b>Common Git commands to know</b></p>
+        <br>
+        <ul>
+            <li><mark>git init</mark> lets you initialise Git in your local folder</li>
+            <br>
+            <li><mark>git add 'file_name'</mark> lets you add only 'file_name'</li>
+            <br>
+            <li><mark>git add .</mark> lets you add all files in the folder.</li>
+            <br>
+            <li><mark>git commit</mark> stores the added files. use <mark>-m</mark> for the message. for instance;
+                <mark>git commit -m 'added a new image'</mark></li>
+            <br>
+            <li><mark>git push</mark> uploads to your github account</li>
+        </ul>
+    </article>
+</body>
+
+</html>
